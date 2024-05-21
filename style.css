@@ -1,0 +1,51 @@
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: lightgoldenrodyellow;
+}
+
+h2 {
+  text-align: center;
+}
+
+#lasagne-plate {
+  max-width: 100%;
+  padding-bottom: 2rem;
+}
+
+#lasagne-oven {
+  max-width: 100%;
+}
+
+.instructions,
+.ingredients {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.instructions li {
+  font-size: 1.1rem;
+  padding: 0.5rem;
+}
+
+.ingredients {
+  margin-bottom: 5%;
+}
+
+.ingredient-lists {
+  padding-top: 2rem;
+  display: flex;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
