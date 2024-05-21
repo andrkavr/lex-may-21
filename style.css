@@ -33,6 +33,7 @@ h2 {
 .instructions li {
   font-size: 1.1rem;
   padding: 0.5rem;
+  line-height: 150%;
 }
 
 .ingredients {
@@ -42,6 +43,7 @@ h2 {
 .ingredient-lists {
   padding-top: 2rem;
   display: flex;
+  line-height: 150%;
 }
 
 footer {
